@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "contact_type": {
+      "type": "enumeration",
+      "enum": [
+        "Individual",
+        "Organization"
+      ]
+    }
+  }
+}
