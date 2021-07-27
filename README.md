@@ -1,3 +1,6 @@
-# Strapi application
+# Backend API application
 
-A quick description of your strapi application
+## Installation
+
+* `yarn install` Install packages
+* `yarn develop` Run the application
