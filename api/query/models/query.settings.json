@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "queries",
+  "info": {
+    "name": "Query"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type_id": {
+      "type": "integer"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "call_id": {
+      "via": "query_call_id",
+      "model": "call"
+    }
+  }
+}

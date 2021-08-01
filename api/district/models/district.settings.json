@@ -24,6 +24,10 @@
     "taluka_district_id": {
       "via": "district_id",
       "model": "taluka"
+    },
+    "address_district_id": {
+      "via": "district_id",
+      "model": "address"
     }
   }
 }

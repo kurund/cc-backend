@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "addresses",
   "info": {
-    "name": "Address"
+    "name": "Address",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,8 +13,31 @@
   "pluginOptions": {},
   "attributes": {
     "contact_id": {
-      "model": "contact",
-      "via": "address_contact_id"
+      "via": "address_contact_id",
+      "model": "contact"
+    },
+    "country_id": {
+      "model": "country",
+      "via": "address_country_id"
+    },
+    "state_id": {
+      "model": "state",
+      "via": "address_state_id"
+    },
+    "district_id": {
+      "model": "district",
+      "via": "address_district_id"
+    },
+    "taluka_id": {
+      "model": "taluka",
+      "via": "address_taluka_id"
+    },
+    "village_id": {
+      "model": "village",
+      "via": "address_village_id"
+    },
+    "village_other": {
+      "type": "string"
     }
   }
 }

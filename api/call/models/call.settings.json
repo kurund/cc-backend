@@ -19,7 +19,7 @@
       "type": "string"
     },
     "contact_id": {
-      "via": "call_id",
+      "via": "call_contact_id",
       "model": "contact"
     },
     "status_id": {
@@ -29,8 +29,12 @@
       "type": "string"
     },
     "volunteer_id": {
-      "model": "contact",
-      "via": "volunteer_contact_id"
+      "via": "call_volunteer_id",
+      "model": "contact"
+    },
+    "query_call_id": {
+      "via": "call_id",
+      "model": "query"
     }
   }
 }

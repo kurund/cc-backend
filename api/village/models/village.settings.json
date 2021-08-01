@@ -20,6 +20,10 @@
     },
     "is_active": {
       "type": "boolean"
+    },
+    "address_village_id": {
+      "via": "village_id",
+      "model": "address"
     }
   }
 }

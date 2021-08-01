@@ -21,6 +21,10 @@
     "state_country_id": {
       "via": "country_id",
       "model": "state"
+    },
+    "address_country_id": {
+      "via": "country_id",
+      "model": "address"
     }
   }
 }

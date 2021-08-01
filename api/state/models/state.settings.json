@@ -25,6 +25,10 @@
     "district_state_id": {
       "via": "state_id",
       "model": "district"
+    },
+    "address_state_id": {
+      "via": "state_id",
+      "model": "address"
     }
   }
 }
