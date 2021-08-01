@@ -44,7 +44,7 @@
       "type": "email"
     },
     "whatsapp_group_status_id": {
-      "type": "biginteger"
+      "type": "integer"
     },
     "user_id": {
       "plugin": "admin",

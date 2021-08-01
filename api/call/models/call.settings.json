@@ -12,8 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "call_type_id": {
-      "type": "biginteger"
+    "type_id": {
+      "type": "integer"
     },
     "caller_number": {
       "type": "string"
