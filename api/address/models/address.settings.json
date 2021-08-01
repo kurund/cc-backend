@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_sub_types",
+  "collectionName": "addresses",
   "info": {
-    "name": "Contact sub type",
-    "description": ""
+    "name": "Address"
   },
   "options": {
     "increments": true,
@@ -12,11 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "is_active": {
-      "type": "boolean"
+    "contact_id": {
+      "model": "contact",
+      "via": "address_contact_id"
     }
   }
 }

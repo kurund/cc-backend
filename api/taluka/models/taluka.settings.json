@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_sub_types",
+  "collectionName": "talukas",
   "info": {
-    "name": "Contact sub type",
-    "description": ""
+    "name": "Taluka"
   },
   "options": {
     "increments": true,
@@ -15,8 +14,16 @@
     "name": {
       "type": "string"
     },
+    "district_id": {
+      "model": "district",
+      "via": "taluka_district_id"
+    },
     "is_active": {
       "type": "boolean"
+    },
+    "village_taluka_id": {
+      "via": "taluka_id",
+      "model": "village"
     }
   }
 }

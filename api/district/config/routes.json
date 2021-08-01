@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/contact-sub-types",
-      "handler": "contact-sub-type.find",
+      "path": "/districts",
+      "handler": "district.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/contact-sub-types/count",
-      "handler": "contact-sub-type.count",
+      "path": "/districts/count",
+      "handler": "district.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/contact-sub-types/:id",
-      "handler": "contact-sub-type.findOne",
+      "path": "/districts/:id",
+      "handler": "district.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/contact-sub-types",
-      "handler": "contact-sub-type.create",
+      "path": "/districts",
+      "handler": "district.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/contact-sub-types/:id",
-      "handler": "contact-sub-type.update",
+      "path": "/districts/:id",
+      "handler": "district.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/contact-sub-types/:id",
-      "handler": "contact-sub-type.delete",
+      "path": "/districts/:id",
+      "handler": "district.delete",
       "config": {
         "policies": []
       }

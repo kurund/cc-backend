@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_sub_types",
+  "collectionName": "countries",
   "info": {
-    "name": "Contact sub type",
+    "name": "Country",
     "description": ""
   },
   "options": {
@@ -17,6 +17,10 @@
     },
     "is_active": {
       "type": "boolean"
+    },
+    "state_country_id": {
+      "via": "country_id",
+      "model": "state"
     }
   }
 }

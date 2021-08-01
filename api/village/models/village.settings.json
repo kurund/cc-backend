@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_sub_types",
+  "collectionName": "villages",
   "info": {
-    "name": "Contact sub type",
-    "description": ""
+    "name": "village"
   },
   "options": {
     "increments": true,
@@ -14,6 +13,10 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "taluka_id": {
+      "model": "taluka",
+      "via": "village_taluka_id"
     },
     "is_active": {
       "type": "boolean"

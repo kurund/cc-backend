@@ -57,6 +57,10 @@
     "volunteer_contact_id": {
       "via": "volunteer_id",
       "model": "call"
+    },
+    "address_contact_id": {
+      "via": "contact_id",
+      "model": "address"
     }
   }
 }

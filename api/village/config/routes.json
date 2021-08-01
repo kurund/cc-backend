@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/contact-sub-types",
-      "handler": "contact-sub-type.find",
+      "path": "/villages",
+      "handler": "village.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/contact-sub-types/count",
-      "handler": "contact-sub-type.count",
+      "path": "/villages/count",
+      "handler": "village.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/contact-sub-types/:id",
-      "handler": "contact-sub-type.findOne",
+      "path": "/villages/:id",
+      "handler": "village.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/contact-sub-types",
-      "handler": "contact-sub-type.create",
+      "path": "/villages",
+      "handler": "village.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/contact-sub-types/:id",
-      "handler": "contact-sub-type.update",
+      "path": "/villages/:id",
+      "handler": "village.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/contact-sub-types/:id",
-      "handler": "contact-sub-type.delete",
+      "path": "/villages/:id",
+      "handler": "village.delete",
       "config": {
         "policies": []
       }

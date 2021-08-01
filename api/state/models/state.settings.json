@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_sub_types",
+  "collectionName": "states",
   "info": {
-    "name": "Contact sub type",
+    "name": "State",
     "description": ""
   },
   "options": {
@@ -15,8 +15,16 @@
     "name": {
       "type": "string"
     },
+    "country_id": {
+      "via": "state_country_id",
+      "model": "country"
+    },
     "is_active": {
       "type": "boolean"
+    },
+    "district_state_id": {
+      "via": "state_id",
+      "model": "district"
     }
   }
 }

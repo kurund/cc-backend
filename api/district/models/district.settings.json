@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_sub_types",
+  "collectionName": "districts",
   "info": {
-    "name": "Contact sub type",
-    "description": ""
+    "name": "District"
   },
   "options": {
     "increments": true,
@@ -15,8 +14,16 @@
     "name": {
       "type": "string"
     },
+    "state_id": {
+      "via": "district_state_id",
+      "model": "state"
+    },
     "is_active": {
       "type": "boolean"
+    },
+    "taluka_district_id": {
+      "via": "district_id",
+      "model": "taluka"
     }
   }
 }

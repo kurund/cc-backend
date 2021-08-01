@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/contact-sub-types",
-      "handler": "contact-sub-type.find",
+      "path": "/talukas",
+      "handler": "taluka.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/contact-sub-types/count",
-      "handler": "contact-sub-type.count",
+      "path": "/talukas/count",
+      "handler": "taluka.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/contact-sub-types/:id",
-      "handler": "contact-sub-type.findOne",
+      "path": "/talukas/:id",
+      "handler": "taluka.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/contact-sub-types",
-      "handler": "contact-sub-type.create",
+      "path": "/talukas",
+      "handler": "taluka.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/contact-sub-types/:id",
-      "handler": "contact-sub-type.update",
+      "path": "/talukas/:id",
+      "handler": "taluka.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/contact-sub-types/:id",
-      "handler": "contact-sub-type.delete",
+      "path": "/talukas/:id",
+      "handler": "taluka.delete",
       "config": {
         "policies": []
       }
