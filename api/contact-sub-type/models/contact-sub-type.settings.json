@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_sub_types",
+  "info": {
+    "name": "Contact sub type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  }
+}

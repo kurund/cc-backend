@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "contacts",
   "info": {
     "name": "Contact",
@@ -24,6 +24,39 @@
         "Individual",
         "Organization"
       ]
+    },
+    "organization_name": {
+      "type": "string"
+    },
+    "contact_sub_type_other": {
+      "type": "string"
+    },
+    "external_identifier": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "phone_other": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "whatsapp_group_status_id": {
+      "type": "biginteger"
+    },
+    "call_id": {
+      "via": "contact_id",
+      "model": "call"
+    },
+    "user_id": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "volunteer_contact_id": {
+      "via": "volunteer_id",
+      "model": "call"
     }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contact-sub-type",
+      "handler": "contact-sub-type.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contact-sub-type",
+      "handler": "contact-sub-type.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contact-sub-type",
+      "handler": "contact-sub-type.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/contacts",
-      "handler": "contact.find",
+      "path": "/calls",
+      "handler": "call.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/contacts/count",
-      "handler": "contact.count",
+      "path": "/calls/count",
+      "handler": "call.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/contacts/:id",
-      "handler": "contact.findOne",
+      "path": "/calls/:id",
+      "handler": "call.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/contacts",
-      "handler": "contact.create",
+      "path": "/calls",
+      "handler": "call.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/contacts/:id",
-      "handler": "contact.update",
+      "path": "/calls/:id",
+      "handler": "call.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/contacts/:id",
-      "handler": "contact.delete",
+      "path": "/calls/:id",
+      "handler": "call.delete",
       "config": {
         "policies": []
       }

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calls",
+  "info": {
+    "name": "Call",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "call_type_id": {
+      "type": "biginteger"
+    },
+    "caller_number": {
+      "type": "string"
+    },
+    "contact_id": {
+      "via": "call_id",
+      "model": "contact"
+    },
+    "status_id": {
+      "type": "biginteger"
+    },
+    "receiver_number": {
+      "type": "string"
+    },
+    "volunteer_id": {
+      "model": "contact",
+      "via": "volunteer_contact_id"
+    }
+  }
+}
