@@ -65,6 +65,14 @@
     "contact_sub_type_ids": {
       "collection": "contact-sub-type",
       "via": "contact_contact_sub_type_id"
+    },
+    "ticket_contact_id": {
+      "via": "contact_id",
+      "model": "ticket"
+    },
+    "ticket_volunteer_id": {
+      "via": "volunteer_id",
+      "model": "ticket"
     }
   }
 }

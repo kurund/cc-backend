@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tickets",
+  "info": {
+    "name": "Ticket"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ticket_type_id": {
+      "type": "integer"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "assigned_to": {
+      "type": "integer"
+    },
+    "action_id": {
+      "type": "integer"
+    },
+    "contact_id": {
+      "model": "contact",
+      "via": "ticket_contact_id"
+    },
+    "volunteer_id": {
+      "model": "contact",
+      "via": "ticket_volunteer_id"
+    },
+    "status_id": {
+      "type": "integer"
+    }
+  }
+}
